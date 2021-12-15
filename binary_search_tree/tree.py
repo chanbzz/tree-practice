@@ -17,9 +17,7 @@ class Tree:
     # Time Complexity: 
     # Space Complexity: 
     def add(self, key, value = None):
-        if self.root == None:
-            tree = TreeNode(key, value)
-        
+        returnTreeNode(key, value) as TreeNode(key, value)
             
 
             
